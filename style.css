@@ -7,6 +7,7 @@ body{
      color: white;
      text-align: justify;
      letter-spacing: 2px;
+     font-family: 'Bangers', cursive;
 }
 
 h1, h2{
@@ -109,6 +110,47 @@ a:hover{
 }
 
 
-footer{
-     display: inline-block;
+footer {
+  clear: both;
+  padding: 3em 10%;
+  color: #fff;
+  background: rgba(15,15,15,0.5);
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  padding: 40px 0 0 0;
+  margin: 0 0.5em;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: color 2s ease-out, box-shadow 2s ease-out;
+  -moz-transition: color 2s ease-out, box-shadow 2s ease-out;
+  transition: color 2s ease-out, box-shadow 2s ease-out;
+}
+footer a:hover, footer a:focus {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.zen-validate-html{
+     background-image: "fa";
+}
+
+.zen-validate-css{
+
+}
+
+.zen-license{
+
+}
+
+.zen-accessibility{
+
+}
+
+.zen-github{
+
 }
